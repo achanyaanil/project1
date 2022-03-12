@@ -9,3 +9,6 @@ def function1(request):
 
 def function2(request):
     return render(request,'google.html')
+
+def function3(request):
+    return render(request,'facebook.html')
